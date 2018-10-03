@@ -1,7 +1,10 @@
- //declare bacteria variables here   
+ int bX,bY,bColor;  
  void setup()   
- {     
- 	//initialize bacteria variables here   
+ {    
+   size(300,300);
+   bX = (int)(Math.random()*299)+1;
+   bY = (int)(Math.random()*299)+1;
+   bColor = ((int)(Math.random()*257),(int)(Math.random()*257),(int)(Math.random()*257));
  }   
  void draw()   
  {    
